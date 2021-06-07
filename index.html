@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="prestart">
+    <h1>Tic Tac Toe</h1>
+    <label for="p1-name">Player 1: </label>
+    <input type="text" name="p1-name" id="p1-name"><br>
+    <label for="p2-name">Player 2:</label>
+    <input type="text" name="p2-name" id="p2-name"><br>
+    <button id="start-btn">Start</button>
+  </div>
+  <div id="afterstart">
+    <div class="instructions">
+      <h1>Tic Tac Toe</h1>
+      <h3 id="player1"></h3>
+      <h3 id="player2"></h3>
+    </div>
+    <div id="tic-container">
+      <div class="tic-box" data-attr="1"></div>
+      <div class="tic-box" data-attr="2"></div>
+      <div class="tic-box" data-attr="3"></div>
+      <div class="tic-box" data-attr="4"></div>
+      <div class="tic-box" data-attr="5"></div>
+      <div class="tic-box" data-attr="6"></div>
+      <div class="tic-box" data-attr="7"></div>
+      <div class="tic-box" data-attr="8"></div>
+      <div class="tic-box" data-attr="9"></div>
+    </div>
+  </div>
+  <div id="results">
+    <div id="round-res"></div>
+    <button id="restart">Restart</button>
+  </div>
+
+</body>
+<script src="/app.js"></script>
+</html>
